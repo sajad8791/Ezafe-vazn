@@ -1,0 +1,102 @@
+body {
+    background-color: darkkhaki;
+  }
+  
+  #container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+  }
+  
+  
+  #conventor {
+    position:relative;
+    width: 800px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.788);
+    background-color:#05595B;
+  }
+#top-side-text{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    font-family: B Nazanin;
+    background: #9b935a;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+span {font-family: B Nazanin;
+    direction: rtl;
+    font-weight: 1000;
+    font-size: 20px;
+    color: rgb(51, 50, 50);
+}
+#input-area{
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    place-items: center;
+    gap: 20px;
+}
+#input-area input{
+    width: 60%;
+    height: 50%;
+    border-radius: 10px;
+    background-color: #9b935a;
+    border: none;
+    outline: none;
+    transition: 500ms;
+    text-align: center;
+    font-family: B Nazanin;
+    font-size: 15px;
+    font-weight: 600;
+}
+#input-area input:focus+label {
+    transform: translateY(-40px);
+    color: #f5f5f5;
+}
+#input-area input:required:valid+label {
+    transform: translateY(-40px);
+    color: #f5f5f5;
+}
+#input-area label{
+    position: absolute;
+    font-family: B Nazanin;
+    font-size: 18px;
+    font-weight: 1000;
+    transition: 500ms;
+    color: #062c30;
+    pointer-events: none;
+}
+#input-area i {
+    font-size: 30px;
+    color: #9b935a;
+}
+#input-area button{
+    font-family: B Nazanin;
+    font-size: 20px;
+    padding: 0px 30px 0px 30px;
+    border-radius: 10px;
+    background-color: #b1a233;
+    border: none;
+    cursor: pointer;
+    transition: 500ms;
+}
+#input-area button:hover{
+    background-color: green;
+}
