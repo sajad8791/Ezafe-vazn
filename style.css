@@ -100,3 +100,22 @@ span {font-family: B Nazanin;
 #input-area button:hover{
     background-color: green;
 }
+@media screen and (max-height:800px){
+    #container{
+        width: 88%;
+        min-height: 100%;
+        display: flex;
+        justify-content: center;
+        place-items: center;
+        left: 23px;
+    }
+    #conventor{
+        height: 520px;
+    }
+    #input-area{
+        width: 110%;
+        height: 76px;
+        margin-top: 76px;
+        gap: 23px;
+    }
+}
